@@ -248,7 +248,6 @@ const handleDelete = (id) => {
                 <button className="w-[125px] h-[47px] rounded-[20px] bg-black text-red-600 font-bold border-[5px] text-[20px] border-red-600 hover:bg-red-600 
                   hover:text-white hover:border-[5px] hover:border-white"
                   onClick={() =>
-                    // deleteMutation.mutate(user.id)
                     handleDelete(user?.id)
                   }>
                   Delete
